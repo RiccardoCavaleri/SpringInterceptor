@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 //l'endpoint restituisce un messaggio predefinito
 public class LegacyController {
 
-    @GetMapping("")
+    @GetMapping()
     public String getLegacyMessage(){
         return "This is just old code";
     }

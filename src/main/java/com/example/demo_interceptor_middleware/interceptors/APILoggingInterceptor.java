@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 
-//OBBIETTIVO: intercettare tutte le richieste e stampare l'header User-Agent nella console
+//OBBIETTIVO: intercettare tutte le richieste e stampare chi fa la richiesta User-Agent nella console
 @Component
 //headlerInterceptor ha la responsabilità di intercettare le richieste in entrata
 public class APILoggingInterceptor implements HandlerInterceptor {
